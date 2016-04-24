@@ -1,10 +1,15 @@
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteBase /medium
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^post/(.*)$ posts.php?id=$1 [L]
-RewriteRule ^([a-zA-Z0-9_-]+)$ profile.php?username=$1 [L]
-RewriteRule ^([a-zA-Z0-9_-]+)/$ profile.php?username=$1 [L]
-</IfModule>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
 
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

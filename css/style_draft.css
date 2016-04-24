@@ -1,0 +1,84 @@
+html{
+	font-family:sans-serif;
+}
+body{
+	font-family: -apple-system,".SFNSText-Regular","Helvetica Neue","Roboto","Segoe UI",sans-serif;
+}
+.navbar-nav.navbar-right{
+	padding: 10px 0px;
+}
+.item ul > a.btn{
+	background: transparent; 
+	color: rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.18);
+	padding: 6px 20px;
+	border-radius: 20px;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+	margin: 7px 5px 0px;
+}
+.navbar-brand {
+	width: 180px;
+	padding: 10px 0px;
+}
+.navbar-brand img{
+	width: 60px;
+	margin: 10px 5px;
+}
+.navbar-form span{
+	border: 1px solid black;
+    border-radius: 114%;
+    margin: 10px;
+}
+.form-control{
+	padding: 7px 12px 7px 0px;
+}
+.btn-submit{
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.search-form{
+	border-left: 0px;
+	box-shadow: none;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.content_main {
+	border-top: 1.7px solid #eee;
+	padding: 0px 0px;
+}
+.content_main p{
+	padding-top: 15px;
+	
+}
+.line-bar ul{
+	margin-bottom: 65px; 
+	text-align: right
+}
+.line-bar h1 {
+	font-size: 42px;
+	line-height: 46px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 62px;
+}
+.content_main p{
+	font-size: 	11px;
+	line-height: 22px;
+	margin:15px 0px;
+}
+.content_main h3{
+	padding-top: 45px; 
+}
+
+.read_time {
+	font-size: 12px;
+	line-height: 22px;
+	color: #ADADC1;
+	margin-top: 8px;
+}
+.content_main ul {
+	
+}
